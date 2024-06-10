@@ -1,0 +1,20 @@
+.button-header{
+  background-color: red;
+}
+
+.container-all-page{
+  background-color: rgb(235, 233, 233);
+}
+
+.container-header{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-logo-header{
+  width: 32%;
+}
