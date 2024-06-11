@@ -2,6 +2,7 @@ import ButtonHeader from './components/button'
 import logo from "./assets/MARCA EVELYN NADINE-03.png"
 import './App.css'
 import "./index.css"
+import { Link } from 'react-router-dom'
 
 function App() {
   return (
@@ -25,10 +26,11 @@ function App() {
                 <input type="password" className="input-header"></input>
               </li>
             </ul>
-            <ButtonHeader/>
+            <Link to="/teste">
+              <ButtonHeader/>
+            </Link>
           </form>
         </div>
-
       </div>
   )
 }
