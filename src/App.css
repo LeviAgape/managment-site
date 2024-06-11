@@ -1,14 +1,14 @@
 .button-header{
-  background-color: red;
+  background-color: wheat;
 }
 
 .container-all-page{
   background-color: rgb(235, 233, 233);
+  height: 100vh;
 }
 
 .container-header{
   width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,4 +17,32 @@
 
 .photo-logo-header{
   width: 32%;
+}
+
+.input-header{
+  width: 80%;
+  border-radius: 20px;
+}
+
+ul{
+  list-style: none;
+  width: 100%;
+  height: 50%;
+}
+
+li{
+  list-style: none;
+  height: 70%;
+}
+
+.form-header{
+  height: 8%;
+  font-size: 24px;
+}
+
+.container-photo-logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
 }

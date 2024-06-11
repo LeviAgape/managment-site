@@ -1,7 +1,7 @@
 function ButtonHeader(){
     return (
         <div>
-            <button className="button-header">Teste-me</button>
+            <button className="button-header">Entrar</button>
         </div>
     )
 }
