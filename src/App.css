@@ -1,5 +1,5 @@
 .button-header{
-  background-color: wheat;
+  background-color: rgb(106, 95, 74);
 }
 
 .container-all-page{
@@ -36,6 +36,9 @@ li{
 }
 
 .form-header{
+  display: flex;
+  flex-direction: column;
+  width: 16%;
   height: 8%;
   font-size: 24px;
 }

@@ -1,3 +1,27 @@
 .container-all-page{
-    background-color: rgb(112, 111, 111);
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(184, 179, 179);
+}
+
+.logo-photo-header{
+    width: 24%;
+    padding-bottom: 12px;
+}
+
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 27, 27);
+}
+
+.links-header{
+text-decoration: none;
+    color: white;
+}
+
+li{
+
 }
